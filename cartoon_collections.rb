@@ -10,8 +10,9 @@ def summon_captain_planet(planeteer_array)# code an argument here
   planeteer_array.map { |call| call.capitalize + "!" }
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(planeteer_array)# code an argument here
   # Your code here
+  planeteer_array.any? { |word| word.length > 4 }
 end
 
 def find_the_cheese# code an argument here
